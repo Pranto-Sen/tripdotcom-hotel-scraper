@@ -1,6 +1,6 @@
 scrapy==2.11.0
 SQLAlchemy==2.0.20
-psycopg2
+psycopg2-binary==2.9.9
 requests==2.31.0
 python-dotenv==1.0.0
 itemadapter==0.8.0
