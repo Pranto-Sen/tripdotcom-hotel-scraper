@@ -50,9 +50,7 @@ class TripSpider(scrapy.Spider):
                     
                     valid_cities = [city for city in all_cities if city.get('recommendHotels')]
                     
-                    selected_cities = random.sample(valid_cities, min(3, len(valid_cities)))
-                    
-                    for city in selected_cities:
+                    for city in valid_cities:
                         city_info = {
                             'city_name': city.get('name')
                         }
