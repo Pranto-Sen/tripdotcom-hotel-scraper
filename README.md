@@ -8,17 +8,16 @@
     ```
 
 2. **Create a virtual environment:**
-    ```bash
-    python -m venv .venv
-    ```
 
-    - On Windows, activate the virtual environment:
+    - On Windows, create and activate the virtual environment:
       ```bash
+       py -3 -m venv .venv
       .venv\Scripts\activate
       ```
 
-    - On Linux/Mac, activate the virtual environment:
+    - On Linux/Mac, create and activate the virtual environment:
       ```bash
+      python3 -m venv .venv
       source .venv/bin/activate
       ```
 
